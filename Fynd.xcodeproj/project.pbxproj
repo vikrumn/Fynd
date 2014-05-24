@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB49F17193150EF00272599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F16193150EF00272599 /* Foundation.framework */; };
+		AEB49F19193150EF00272599 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F18193150EF00272599 /* CoreGraphics.framework */; };
+		AEB49F1B193150EF00272599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F1A193150EF00272599 /* UIKit.framework */; };
+		AEB49F21193150EF00272599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F1F193150EF00272599 /* InfoPlist.strings */; };
+		AEB49F23193150EF00272599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F22193150EF00272599 /* main.m */; };
+		AEB49F27193150EF00272599 /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F26193150EF00272599 /* VNAppDelegate.m */; };
+		AEB49F2A193150EF00272599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F28193150EF00272599 /* Main.storyboard */; };
+		AEB49F2D193150EF00272599 /* VNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F2C193150EF00272599 /* VNFirstViewController.m */; };
+		AEB49F30193150EF00272599 /* VNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F2F193150EF00272599 /* VNSecondViewController.m */; };
+		AEB49F32193150EF00272599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F31193150EF00272599 /* Images.xcassets */; };
+		AEB49F39193150EF00272599 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F38193150EF00272599 /* XCTest.framework */; };
+		AEB49F3A193150EF00272599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F16193150EF00272599 /* Foundation.framework */; };
+		AEB49F3B193150EF00272599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F1A193150EF00272599 /* UIKit.framework */; };
+		AEB49F43193150EF00272599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F41193150EF00272599 /* InfoPlist.strings */; };
+		AEB49F45193150EF00272599 /* FyndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F44193150EF00272599 /* FyndTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEB49F3C193150EF00272599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB49F0B193150EF00272599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB49F12193150EF00272599;
+			remoteInfo = Fynd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEB49F13193150EF00272599 /* Fynd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fynd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB49F16193150EF00272599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEB49F18193150EF00272599 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEB49F1A193150EF00272599 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEB49F1E193150EF00272599 /* Fynd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fynd-Info.plist"; sourceTree = "<group>"; };
+		AEB49F20193150EF00272599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEB49F22193150EF00272599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB49F24193150EF00272599 /* Fynd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fynd-Prefix.pch"; sourceTree = "<group>"; };
+		AEB49F25193150EF00272599 /* VNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNAppDelegate.h; sourceTree = "<group>"; };
+		AEB49F26193150EF00272599 /* VNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNAppDelegate.m; sourceTree = "<group>"; };
+		AEB49F29193150EF00272599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB49F2B193150EF00272599 /* VNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNFirstViewController.h; sourceTree = "<group>"; };
+		AEB49F2C193150EF00272599 /* VNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNFirstViewController.m; sourceTree = "<group>"; };
+		AEB49F2E193150EF00272599 /* VNSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNSecondViewController.h; sourceTree = "<group>"; };
+		AEB49F2F193150EF00272599 /* VNSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNSecondViewController.m; sourceTree = "<group>"; };
+		AEB49F31193150EF00272599 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEB49F37193150EF00272599 /* FyndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB49F38193150EF00272599 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AEB49F40193150EF00272599 /* FyndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FyndTests-Info.plist"; sourceTree = "<group>"; };
+		AEB49F42193150EF00272599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEB49F44193150EF00272599 /* FyndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FyndTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB49F10193150EF00272599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB49F19193150EF00272599 /* CoreGraphics.framework in Frameworks */,
+				AEB49F1B193150EF00272599 /* UIKit.framework in Frameworks */,
+				AEB49F17193150EF00272599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB49F34193150EF00272599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB49F39193150EF00272599 /* XCTest.framework in Frameworks */,
+				AEB49F3B193150EF00272599 /* UIKit.framework in Frameworks */,
+				AEB49F3A193150EF00272599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB49F0A193150EF00272599 = {
+			isa = PBXGroup;
+			children = (
+				AEB49F1C193150EF00272599 /* Fynd */,
+				AEB49F3E193150EF00272599 /* FyndTests */,
+				AEB49F15193150EF00272599 /* Frameworks */,
+				AEB49F14193150EF00272599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB49F14193150EF00272599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB49F13193150EF00272599 /* Fynd.app */,
+				AEB49F37193150EF00272599 /* FyndTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB49F15193150EF00272599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB49F16193150EF00272599 /* Foundation.framework */,
+				AEB49F18193150EF00272599 /* CoreGraphics.framework */,
+				AEB49F1A193150EF00272599 /* UIKit.framework */,
+				AEB49F38193150EF00272599 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB49F1C193150EF00272599 /* Fynd */ = {
+			isa = PBXGroup;
+			children = (
+				AEB49F25193150EF00272599 /* VNAppDelegate.h */,
+				AEB49F26193150EF00272599 /* VNAppDelegate.m */,
+				AEB49F28193150EF00272599 /* Main.storyboard */,
+				AEB49F2B193150EF00272599 /* VNFirstViewController.h */,
+				AEB49F2C193150EF00272599 /* VNFirstViewController.m */,
+				AEB49F2E193150EF00272599 /* VNSecondViewController.h */,
+				AEB49F2F193150EF00272599 /* VNSecondViewController.m */,
+				AEB49F31193150EF00272599 /* Images.xcassets */,
+				AEB49F1D193150EF00272599 /* Supporting Files */,
+			);
+			path = Fynd;
+			sourceTree = "<group>";
+		};
+		AEB49F1D193150EF00272599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB49F1E193150EF00272599 /* Fynd-Info.plist */,
+				AEB49F1F193150EF00272599 /* InfoPlist.strings */,
+				AEB49F22193150EF00272599 /* main.m */,
+				AEB49F24193150EF00272599 /* Fynd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB49F3E193150EF00272599 /* FyndTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB49F44193150EF00272599 /* FyndTests.m */,
+				AEB49F3F193150EF00272599 /* Supporting Files */,
+			);
+			path = FyndTests;
+			sourceTree = "<group>";
+		};
+		AEB49F3F193150EF00272599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB49F40193150EF00272599 /* FyndTests-Info.plist */,
+				AEB49F41193150EF00272599 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB49F12193150EF00272599 /* Fynd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB49F48193150EF00272599 /* Build configuration list for PBXNativeTarget "Fynd" */;
+			buildPhases = (
+				AEB49F0F193150EF00272599 /* Sources */,
+				AEB49F10193150EF00272599 /* Frameworks */,
+				AEB49F11193150EF00272599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fynd;
+			productName = Fynd;
+			productReference = AEB49F13193150EF00272599 /* Fynd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEB49F36193150EF00272599 /* FyndTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB49F4B193150EF00272599 /* Build configuration list for PBXNativeTarget "FyndTests" */;
+			buildPhases = (
+				AEB49F33193150EF00272599 /* Sources */,
+				AEB49F34193150EF00272599 /* Frameworks */,
+				AEB49F35193150EF00272599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB49F3D193150EF00272599 /* PBXTargetDependency */,
+			);
+			name = FyndTests;
+			productName = FyndTests;
+			productReference = AEB49F37193150EF00272599 /* FyndTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB49F0B193150EF00272599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VN;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					AEB49F36193150EF00272599 = {
+						TestTargetID = AEB49F12193150EF00272599;
+					};
+				};
+			};
+			buildConfigurationList = AEB49F0E193150EF00272599 /* Build configuration list for PBXProject "Fynd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB49F0A193150EF00272599;
+			productRefGroup = AEB49F14193150EF00272599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB49F12193150EF00272599 /* Fynd */,
+				AEB49F36193150EF00272599 /* FyndTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB49F11193150EF00272599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB49F32193150EF00272599 /* Images.xcassets in Resources */,
+				AEB49F21193150EF00272599 /* InfoPlist.strings in Resources */,
+				AEB49F2A193150EF00272599 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB49F35193150EF00272599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB49F43193150EF00272599 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB49F0F193150EF00272599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB49F2D193150EF00272599 /* VNFirstViewController.m in Sources */,
+				AEB49F27193150EF00272599 /* VNAppDelegate.m in Sources */,
+				AEB49F30193150EF00272599 /* VNSecondViewController.m in Sources */,
+				AEB49F23193150EF00272599 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB49F33193150EF00272599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB49F45193150EF00272599 /* FyndTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEB49F3D193150EF00272599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB49F12193150EF00272599 /* Fynd */;
+			targetProxy = AEB49F3C193150EF00272599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEB49F1F193150EF00272599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB49F20193150EF00272599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEB49F28193150EF00272599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB49F29193150EF00272599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB49F41193150EF00272599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB49F42193150EF00272599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB49F46193150EF00272599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEB49F47193150EF00272599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB49F49193150EF00272599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fynd/Fynd-Prefix.pch";
+				INFOPLIST_FILE = "Fynd/Fynd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEB49F4A193150EF00272599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fynd/Fynd-Prefix.pch";
+				INFOPLIST_FILE = "Fynd/Fynd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AEB49F4C193150EF00272599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fynd.app/Fynd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fynd/Fynd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FyndTests/FyndTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AEB49F4D193150EF00272599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fynd.app/Fynd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fynd/Fynd-Prefix.pch";
+				INFOPLIST_FILE = "FyndTests/FyndTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB49F0E193150EF00272599 /* Build configuration list for PBXProject "Fynd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB49F46193150EF00272599 /* Debug */,
+				AEB49F47193150EF00272599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB49F48193150EF00272599 /* Build configuration list for PBXNativeTarget "Fynd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB49F49193150EF00272599 /* Debug */,
+				AEB49F4A193150EF00272599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEB49F4B193150EF00272599 /* Build configuration list for PBXNativeTarget "FyndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB49F4C193150EF00272599 /* Debug */,
+				AEB49F4D193150EF00272599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB49F0B193150EF00272599 /* Project object */;
+}
