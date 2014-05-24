@@ -6,13 +6,13 @@
 //
 //
 
-#import "VNFirstViewController.h"
+#import "VNFindViewController.h"
 
-@interface VNFirstViewController ()
+@interface VNFindViewController ()
 
 @end
 
-@implementation VNFirstViewController
+@implementation VNFindViewController
 
 - (void)viewDidLoad
 {

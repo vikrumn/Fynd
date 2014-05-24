@@ -6,13 +6,13 @@
 //
 //
 
-#import "VNSecondViewController.h"
+#import "VNLostViewController.h"
 
-@interface VNSecondViewController ()
+@interface VNLostViewController ()
 
 @end
 
-@implementation VNSecondViewController
+@implementation VNLostViewController
 
 - (void)viewDidLoad
 {

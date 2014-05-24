@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0F07D619315C9E00C219A4 /* VNSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0F07D519315C9E00C219A4 /* VNSettingsViewController.m */; };
 		AEB49F17193150EF00272599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F16193150EF00272599 /* Foundation.framework */; };
 		AEB49F19193150EF00272599 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F18193150EF00272599 /* CoreGraphics.framework */; };
 		AEB49F1B193150EF00272599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F1A193150EF00272599 /* UIKit.framework */; };
@@ -14,8 +15,8 @@
 		AEB49F23193150EF00272599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F22193150EF00272599 /* main.m */; };
 		AEB49F27193150EF00272599 /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F26193150EF00272599 /* VNAppDelegate.m */; };
 		AEB49F2A193150EF00272599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F28193150EF00272599 /* Main.storyboard */; };
-		AEB49F2D193150EF00272599 /* VNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F2C193150EF00272599 /* VNFirstViewController.m */; };
-		AEB49F30193150EF00272599 /* VNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F2F193150EF00272599 /* VNSecondViewController.m */; };
+		AEB49F2D193150EF00272599 /* VNFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F2C193150EF00272599 /* VNFindViewController.m */; };
+		AEB49F30193150EF00272599 /* VNLostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F2F193150EF00272599 /* VNLostViewController.m */; };
 		AEB49F32193150EF00272599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F31193150EF00272599 /* Images.xcassets */; };
 		AEB49F39193150EF00272599 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F38193150EF00272599 /* XCTest.framework */; };
 		AEB49F3A193150EF00272599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F16193150EF00272599 /* Foundation.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0F07D419315C9E00C219A4 /* VNSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNSettingsViewController.h; sourceTree = "<group>"; };
+		AC0F07D519315C9E00C219A4 /* VNSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNSettingsViewController.m; sourceTree = "<group>"; };
 		AEB49F13193150EF00272599 /* Fynd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fynd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB49F16193150EF00272599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEB49F18193150EF00272599 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,10 +49,10 @@
 		AEB49F25193150EF00272599 /* VNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNAppDelegate.h; sourceTree = "<group>"; };
 		AEB49F26193150EF00272599 /* VNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNAppDelegate.m; sourceTree = "<group>"; };
 		AEB49F29193150EF00272599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEB49F2B193150EF00272599 /* VNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNFirstViewController.h; sourceTree = "<group>"; };
-		AEB49F2C193150EF00272599 /* VNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNFirstViewController.m; sourceTree = "<group>"; };
-		AEB49F2E193150EF00272599 /* VNSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNSecondViewController.h; sourceTree = "<group>"; };
-		AEB49F2F193150EF00272599 /* VNSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNSecondViewController.m; sourceTree = "<group>"; };
+		AEB49F2B193150EF00272599 /* VNFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNFindViewController.h; sourceTree = "<group>"; };
+		AEB49F2C193150EF00272599 /* VNFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNFindViewController.m; sourceTree = "<group>"; };
+		AEB49F2E193150EF00272599 /* VNLostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNLostViewController.h; sourceTree = "<group>"; };
+		AEB49F2F193150EF00272599 /* VNLostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNLostViewController.m; sourceTree = "<group>"; };
 		AEB49F31193150EF00272599 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AEB49F37193150EF00272599 /* FyndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB49F38193150EF00272599 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +121,12 @@
 				AEB49F25193150EF00272599 /* VNAppDelegate.h */,
 				AEB49F26193150EF00272599 /* VNAppDelegate.m */,
 				AEB49F28193150EF00272599 /* Main.storyboard */,
-				AEB49F2B193150EF00272599 /* VNFirstViewController.h */,
-				AEB49F2C193150EF00272599 /* VNFirstViewController.m */,
-				AEB49F2E193150EF00272599 /* VNSecondViewController.h */,
-				AEB49F2F193150EF00272599 /* VNSecondViewController.m */,
+				AC0F07D419315C9E00C219A4 /* VNSettingsViewController.h */,
+				AC0F07D519315C9E00C219A4 /* VNSettingsViewController.m */,
+				AEB49F2B193150EF00272599 /* VNFindViewController.h */,
+				AEB49F2C193150EF00272599 /* VNFindViewController.m */,
+				AEB49F2E193150EF00272599 /* VNLostViewController.h */,
+				AEB49F2F193150EF00272599 /* VNLostViewController.m */,
 				AEB49F31193150EF00272599 /* Images.xcassets */,
 				AEB49F1D193150EF00272599 /* Supporting Files */,
 			);
@@ -254,9 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB49F2D193150EF00272599 /* VNFirstViewController.m in Sources */,
+				AEB49F2D193150EF00272599 /* VNFindViewController.m in Sources */,
+				AC0F07D619315C9E00C219A4 /* VNSettingsViewController.m in Sources */,
 				AEB49F27193150EF00272599 /* VNAppDelegate.m in Sources */,
-				AEB49F30193150EF00272599 /* VNSecondViewController.m in Sources */,
+				AEB49F30193150EF00272599 /* VNLostViewController.m in Sources */,
 				AEB49F23193150EF00272599 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +468,7 @@
 				AEB49F4A193150EF00272599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEB49F4B193150EF00272599 /* Build configuration list for PBXNativeTarget "FyndTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				AEB49F4D193150EF00272599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
