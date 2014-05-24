@@ -26,7 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"bulltest");
     // Do any additional setup after loading the view.
 }
 
