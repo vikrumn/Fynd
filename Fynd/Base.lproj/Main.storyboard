@@ -34,12 +34,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1179" y="-350"/>
+            <point key="canvasLocation" x="-1187" y="-370"/>
         </scene>
-        <!--View Controller-->
+        <!--Pin View Controller-->
         <scene sceneID="Fb6-tn-WFG">
             <objects>
-                <viewController id="OfO-UB-mo8" sceneMemberID="viewController">
+                <viewController id="OfO-UB-mo8" customClass="PinViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dLf-A2-J8b"/>
                         <viewControllerLayoutGuide type="bottom" id="hEk-bw-nRm"/>
@@ -91,7 +91,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CZ4-MO-1fc" kind="modal" id="K71-kF-LML"/>
+                                    <segue destination="8YX-ce-x5E" kind="modal" id="2m0-92-PQM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbI-aH-MCx">
@@ -100,6 +100,9 @@
                                 <state key="normal" title="Add Photo">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="AddPhoto:" destination="OfO-UB-mo8" eventType="touchUpInside" id="7Dj-0H-ahG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -188,7 +191,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="K71-kF-LML"/>
-    </inferredMetricsTieBreakers>
 </document>
