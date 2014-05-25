@@ -27,13 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-<<<<<<< HEAD
-=======
+
     _actionSheet=[[UIActionSheet alloc] initWithTitle:@"Select option" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:
      @"Use existing",
      @"Take new photo",
      nil];
->>>>>>> master
 }
 
 - (void)didReceiveMemoryWarning
