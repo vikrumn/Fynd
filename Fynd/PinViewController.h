@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PinViewController : UIViewController
+- (IBAction)AddPhoto:(UIButton *)sender;
+
 
 @end

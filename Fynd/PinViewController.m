@@ -46,4 +46,6 @@
 }
 */
 
+- (IBAction)AddPhoto:(UIButton *)sender {
+}
 @end
