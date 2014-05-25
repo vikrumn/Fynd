@@ -101,13 +101,17 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="AddPhoto:" destination="OfO-UB-mo8" eventType="touchUpInside" id="7Dj-0H-ahG"/>
+                                    <action selector="AddPhoto:" destination="OfO-UB-mo8" eventType="touchUpInside" id="i0g-3T-MoJ"/>
+                                    <action selector="derp:" destination="OfO-UB-mo8" eventType="touchUpInside" id="BEO-UJ-kqz"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="xCd-fl-pPy"/>
+                    <connections>
+                        <outlet property="derp" destination="IbI-aH-MCx" id="K6S-dw-cJG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nN-sG-eLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
