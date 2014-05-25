@@ -23,6 +23,7 @@
 		AEB49F3B193150EF00272599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB49F1A193150EF00272599 /* UIKit.framework */; };
 		AEB49F43193150EF00272599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB49F41193150EF00272599 /* InfoPlist.strings */; };
 		AEB49F45193150EF00272599 /* FyndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F44193150EF00272599 /* FyndTests.m */; };
+		AEB49F50193173D500272599 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB49F4F193173D500272599 /* PinViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		AEB49F40193150EF00272599 /* FyndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FyndTests-Info.plist"; sourceTree = "<group>"; };
 		AEB49F42193150EF00272599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEB49F44193150EF00272599 /* FyndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FyndTests.m; sourceTree = "<group>"; };
+		AEB49F4E193173D500272599 /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
+		AEB49F4F193173D500272599 /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				AEB49F25193150EF00272599 /* VNAppDelegate.h */,
 				AEB49F26193150EF00272599 /* VNAppDelegate.m */,
 				AEB49F28193150EF00272599 /* Main.storyboard */,
+				AEB49F4E193173D500272599 /* PinViewController.h */,
+				AEB49F4F193173D500272599 /* PinViewController.m */,
 				AC0F07D419315C9E00C219A4 /* VNSettingsViewController.h */,
 				AC0F07D519315C9E00C219A4 /* VNSettingsViewController.m */,
 				AEB49F2B193150EF00272599 /* VNFindViewController.h */,
@@ -261,6 +266,7 @@
 			files = (
 				AEB49F2D193150EF00272599 /* VNFindViewController.m in Sources */,
 				AC0F07D619315C9E00C219A4 /* VNSettingsViewController.m in Sources */,
+				AEB49F50193173D500272599 /* PinViewController.m in Sources */,
 				AEB49F27193150EF00272599 /* VNAppDelegate.m in Sources */,
 				AEB49F30193150EF00272599 /* VNLostViewController.m in Sources */,
 				AEB49F23193150EF00272599 /* main.m in Sources */,
