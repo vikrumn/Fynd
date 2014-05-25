@@ -1,6 +1,17 @@
+*.xcuserstate
+<<<<<<< HEAD
 
 *.xcuserstate
 
 *.xcuserstate
+=======
+>>>>>>> master
 
 *.xcuserstate
+
+*.xcuserstate
+<<<<<<< HEAD
+=======
+
+Fynd.xcodeproj/project.xcworkspace/xcuserdata/tsaggu.xcuserdatad/UserInterfaceState.xcuserstate
+>>>>>>> tarandeepBranch

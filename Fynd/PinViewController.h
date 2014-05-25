@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PinViewController : UIViewController
-- (IBAction)AddPhoto:(UIButton *)sender;
-@property (weak, nonatomic) UIActionSheet *actionSheet;
+@interface PinViewController : UIViewController <UIActionSheetDelegate> {
+    
+}
 
+- (IBAction)AddPhoto:(UIButton *)sender;
+
+
+@property (nonatomic) UIActionSheet *actionSheet;
 
 @end
