@@ -34,12 +34,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1179" y="-350"/>
+            <point key="canvasLocation" x="-1187" y="-370"/>
         </scene>
-        <!--View Controller-->
+        <!--Pin View Controller-->
         <scene sceneID="Fb6-tn-WFG">
             <objects>
-                <viewController id="OfO-UB-mo8" sceneMemberID="viewController">
+                <viewController id="OfO-UB-mo8" customClass="PinViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dLf-A2-J8b"/>
                         <viewControllerLayoutGuide type="bottom" id="hEk-bw-nRm"/>
@@ -91,7 +91,17 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CZ4-MO-1fc" kind="modal" id="K71-kF-LML"/>
+                                    <segue destination="8YX-ce-x5E" kind="modal" id="2m0-92-PQM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbI-aH-MCx">
+                                <rect key="frame" x="123" y="99" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Photo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AddPhoto:" destination="OfO-UB-mo8" eventType="touchUpInside" id="7Dj-0H-ahG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -171,23 +181,6 @@
             </objects>
             <point key="canvasLocation" x="-1700" y="-32"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Phf-Vc-F1f">
-            <objects>
-                <viewController id="1ct-5e-v2I" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="w5f-G8-9Dy"/>
-                        <viewControllerLayoutGuide type="bottom" id="vcC-RC-FGD"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="F3t-WX-jwO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MdU-j9-IYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
@@ -198,7 +191,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="K71-kF-LML"/>
-    </inferredMetricsTieBreakers>
 </document>
