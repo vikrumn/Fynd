@@ -10,6 +10,7 @@
 
 @interface PinViewController : UIViewController
 - (IBAction)AddPhoto:(UIButton *)sender;
+@property (weak, nonatomic) UIActionSheet *actionSheet;
 
 
 @end
