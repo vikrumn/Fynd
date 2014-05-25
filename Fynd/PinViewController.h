@@ -13,6 +13,9 @@
 }
 
 - (IBAction)AddPhoto:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *TextField1;
+@property (strong, nonatomic) IBOutlet UITextField *TextField2;
+@property (strong, nonatomic) IBOutlet UITextField *TextField3;
 
 
 @property (nonatomic) UIActionSheet *actionSheet;

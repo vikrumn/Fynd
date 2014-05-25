@@ -27,12 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"loading");
     _actionSheet = [[UIActionSheet alloc] initWithTitle:@"Select option" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:
      @"Use existing",
      @"Take new photo",
      nil];
-    NSLog(@"loaded");
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,10 +51,12 @@
 */
 
 - (IBAction)AddPhoto:(UIButton *)sender {
-    NSLog(@"clicked the button");
     _actionSheet.tag = 1;
-    NSLog(@"setting the tag");
+    [self.TextField1 resignFirstResponder];
+    [self.TextField2 resignFirstResponder];
+    [self.TextField3 resignFirstResponder];
     [_actionSheet showInView:[UIApplication sharedApplication].keyWindow];
+    
 }
 
 @end
